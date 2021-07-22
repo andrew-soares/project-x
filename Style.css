@@ -9,11 +9,11 @@ body {
     font-family: "Poppins";
 }
 
-#hn{
+#hand{
     display: flex;
     padding-top: 5rem;
 } 
-#hn p{
+#hand p{
     margin-left: 0.8rem ;
     font-size: 20px;
     color: beige;
