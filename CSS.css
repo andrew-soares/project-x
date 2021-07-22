@@ -1,38 +1,50 @@
-#home{
-    background-color: blue;
+body {
+    background-image: linear-gradient(to right,  rgb(9, 5, 83),  rgb(43, 4, 165));
+}
+
+.content{
     position: absolute;
-    width: 144rem;
-    height: 82rem;
-    margin-top: -8px;
-    margin-bottom:-8px ;
-    margin-left:-8px ;
-    margin-right:-8px ;
+
+    margin-left: 1rem;
+    font-family: "Poppins";
 }
 
-#hn img{
-    margin-left: -3rem;
-    margin-bottom:-3rem ;
-   
-}
-/* #hn p{
-
-
-} */
 #hn{
-    margin-left: 4rem;
-    margin-bottom: -3rem;
-}
+    display: flex;
+    padding-top: 5rem;
+} 
+#hn p{
+    margin-left: 0.8rem ;
+    font-size: 20px;
+    color: beige;
+} 
 
 #text{
-    text-align: left;
-    font-size: 10px;
     
+    width: 40rem;
+    text-align: left;
+    
+}
+#text > h1{
+    font-size: 36px;
+    color: beige;
+}
+#text > h2{
+    font-size: 24px;
+    color: beige;
+}
+.content button{
+    margin-top: 2rem;
+    border: none;
+    border-radius: 1rem;
+    width: 20.7rem;
+    height: 5.3rem;
 }
 
 
 #nave{
-    margin-top: -5rem;
+   
     /* margin-bottom: -1rem; */
-    margin-left: 38rem;
+    margin-left: 50rem;
     
 }
