@@ -1,12 +1,17 @@
 body {
-    background-image: linear-gradient(to right,  rgb(9, 5, 83),  rgb(43, 4, 165));
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-image: linear-gradient(to right,  rgb(9, 5, 83),  rgb(43, 4, 165));
+
 }
 
 .content{
     position: absolute;
-
-    margin-left: 1rem;
-    font-family: "Poppins";
+ 
+    margin-left: 96px;
+    font-family: 'Poppins', sans-serif;
+    
 }
 
 #hand{
@@ -24,16 +29,26 @@ body {
     width: 40rem;
     text-align: left;
     
+
 }
 #text > h1{
+    font-weight: 600;
     font-size: 36px;
+    
     color: beige;
+    line-height: 54px;
+    
+
 }
 #text > h2{
+    font-weight: 400;
     font-size: 24px;
     color: beige;
+    line-height: 36px;
 }
 .content button{
+    
+   align-items: center;
     margin-top: 2rem;
     border: none;
     border-radius: 1rem;
@@ -41,10 +56,28 @@ body {
     height: 5.3rem;
 }
 
+.content button p{
+    
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 54px;
+margin-top: 1rem;
+/* display: flex; */
+
+text-align: center;
+
+color: #590CE8;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
 
 #nave{
    
-    /* margin-bottom: -1rem; */
-    margin-left: 50rem;
     
+    margin-left: 50rem;
+    padding: 7rem;
 }
