@@ -3,6 +3,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 background-image: linear-gradient(to right,  rgb(9, 5, 83),  rgb(43, 4, 165));
+    max-width: min(100rem, 90%);
 
 }
 
@@ -78,6 +79,13 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 #nave{
    
     
-    margin-left: 50rem;
+    margin-left: 28rem;
     padding: 7rem;
+}
+.titulo-subtitulo-2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: beige;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
