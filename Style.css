@@ -1,9 +1,5 @@
 body {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-background-image: linear-gradient(to right,  rgb(9, 5, 83),  rgb(43, 4, 165));
-    max-width: min(100rem, 90%);
+    background-image: linear-gradient(to right,  rgb(9, 5, 83),  rgb(43, 4, 165));
 
 }
 
@@ -26,7 +22,7 @@ background-image: linear-gradient(to right,  rgb(9, 5, 83),  rgb(43, 4, 165));
 } 
 
 #text{
-    max-width: min(29rem, 40rem);
+    width: max(29rem, 38rem);
     text-align: left;
     
 
@@ -79,7 +75,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 #nave{
     
-    margin-left: min(33rem, 60rem);
+    margin-left: max(33rem, 40rem);
 }
 #nave img{
     
