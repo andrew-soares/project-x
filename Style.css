@@ -10,7 +10,7 @@ background-image: linear-gradient(to right,  rgb(9, 5, 83),  rgb(43, 4, 165));
 .content{
     position: absolute;
  
-    margin-left: 96px;
+    margin-left: 2.5rem;
     font-family: 'Poppins', sans-serif;
     
 }
@@ -21,31 +21,32 @@ background-image: linear-gradient(to right,  rgb(9, 5, 83),  rgb(43, 4, 165));
 } 
 #hand p{
     margin-left: 0.8rem ;
-    font-size: 20px;
+    font-size: clamp(0.5em, 1vw, 20px);
     color: beige;
 } 
 
 #text{
-    
-    width: 40rem;
+    max-width: min(29rem, 40rem);
     text-align: left;
     
 
 }
+
 #text > h1{
+    
     font-weight: 600;
-    font-size: 36px;
+    font-size: clamp(1em, 2vw, 36px);
     
     color: beige;
-    line-height: 54px;
+    line-height: 35px;
     
-
+    
 }
 #text > h2{
     font-weight: 400;
-    font-size: 24px;
+    font-size: clamp(0.5em, 1.2vw, 24px);
     color: beige;
-    line-height: 36px;
+    line-height: 30px;
 }
 .content button{
     
@@ -79,9 +80,17 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 #nave{
    
     
-    margin-left: 28rem;
-    padding: 7rem;
+    
+    margin-left: min(33rem, 60rem);
+    
+    
 }
+#nave img{
+    width: 24rem;
+    height: 23rem;
+    
+}
+
 .titulo-subtitulo-2{
     text-align: center;
     font-family: 'Poppins', sans-serif;
