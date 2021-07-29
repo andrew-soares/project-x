@@ -127,10 +127,11 @@ nav {
 #nave {
 
     margin-left: max(33rem, 40rem);
-
+   
 }
 
 #nave img {
+    
     margin-left: -8rem;
     width: max(90%, 80%);
     padding: 5rem;
