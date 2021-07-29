@@ -1,52 +1,103 @@
 body {
-    background-image: linear-gradient(to right,  rgb(9, 5, 83),  rgb(43, 4, 165));
 
+    background-image: linear-gradient(to right, rgb(9, 5, 83), rgb(43, 4, 165));
+
+    padding: 0;
+
+    margin: 0;
+}
+nav {
+    
+    width: 100%;
+    display: flex;
+    background-color: #590CE8;
+    z-index: 99;
+}
+#b1 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem; 
+    margin-right: 2rem;
+    margin-left: 50rem;
+    width: 52, 5px;
+    height: 35px;
+    background: #090454;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: clamp(0.5em, 1.2vw, 20px);
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
-.content{
+#b2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem; 
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: clamp(0.5em, 1.2vw, 20px);
+    ;
+    line-height: 30px;
+    text-align: center;
+
+    color: #590CE8;
+}
+
+
+.content {
     position: absolute;
- 
+
     margin-left: 2.5rem;
     font-family: 'Poppins', sans-serif;
-    
+
 }
 
-#hand{
+#hand {
     display: flex;
     padding-top: 5rem;
-} 
-#hand p{
-    margin-left: 0.8rem ;
+}
+
+#hand p {
+    margin-left: 0.8rem;
     font-size: clamp(0.5em, 1vw, 20px);
     color: beige;
-} 
+}
 
-#text{
+#text {
+
     width: max(29rem, 38rem);
     text-align: left;
-    
+
 
 }
 
-#text > h1{
-    
+#text>h1 {
+
     font-weight: 600;
     font-size: clamp(1em, 2vw, 36px);
-    
+
     color: beige;
     line-height: 35px;
-    
-    
+
+
 }
-#text > h2{
+
+#text>h2 {
     font-weight: 400;
     font-size: clamp(0.5em, 1.2vw, 24px);
     color: beige;
     line-height: 30px;
 }
-.content button{
-    
-   align-items: center;
+
+.content button {
+
+    align-items: center;
     margin-top: 2rem;
     border: none;
     border-radius: 1rem;
@@ -54,35 +105,38 @@ body {
     height: 5.3rem;
 }
 
-.content button p{
-    
+.content button p {
+
     font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 54px;
-margin-top: 1rem;
-/* display: flex; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 54px;
+    margin-top: 1rem;
+    /* display: flex; */
 
-text-align: center;
+    text-align: center;
 
-color: #590CE8;
+    color: #590CE8;
 
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 
 
-#nave{
-    
+#nave {
+
     margin-left: max(33rem, 40rem);
-}
-#nave img{
-    
-    width: max(90%, 80%);
+
 }
 
-.titulo-subtitulo-2{
+#nave img {
+    margin-left: -8rem;
+    width: max(90%, 80%);
+    padding: 5rem;
+}
+
+.titulo-subtitulo-2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: beige;
@@ -90,3 +144,85 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-right: 10rem;
     padding-top: 10rem;
 }
+
+
+
+#buttonsTop {
+    margin-bottom: 0rem;
+}
+
+
+
+
+
+
+
+/* }
+
+
+
+.menu {
+  background: #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+}
+
+.hamburguer {
+  position: relative;
+  display: block;
+  background: #000;
+  width: 30px;
+  height: 2px;
+  top: 29px;
+  left: 15px;
+  transition: 0.5s ease-in-out;
+}
+
+.hamburguer:before,
+.hamburguer:after {
+  background: #000;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: 0.5s ease-in-out;
+}
+
+.hamburguer:before {
+  top: -10px;
+}
+
+.hamburguer:after {
+  bottom: -10px;
+}
+
+input {
+  display: none;
+}
+
+input:checked ~ label .hamburguer {
+  transform: rotate(45deg);
+}
+
+input:checked ~ label .hamburguer:before {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+input:checked ~ label .hamburguer:after {
+  transform: rotate(90deg);
+  bottom: 0;
+} */
+
+/* #rectangle {
+    margin-top: -2.6rem;
+    
+    width: 100%;
+    height: 45px;
+
+    background: #590CE8; */
