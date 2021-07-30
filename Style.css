@@ -227,3 +227,33 @@ input:checked ~ label .hamburguer:after {
     height: 45px;
 
     background: #590CE8; */
+
+    #cadastro button{
+      border-radius: 5px;
+      align-items: center;
+      
+
+      
+    }
+    #cadastro p{
+      font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 54px;
+    margin-top: 1rem;
+    /* display: flex; */
+
+    text-align: center;
+
+    color: #590CE8;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    #row gy-5col-6{
+      
+      color: #590CE8;
+    }
+     
+    
