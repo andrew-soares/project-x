@@ -6,48 +6,7 @@ body {
 
     margin: 0;
 }
-nav {
-    
-    width: 100%;
-    display: flex;
-    background-color: #590CE8;
-    z-index: 99;
-}
-#button1 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem; 
-    margin-right: 2rem;
-    margin-left: 50rem;
-    width: 52, 5px;
-    height: 35px;
-    background: #090454;
-    border-radius: 5px;
-    font-family: 'Poppins', sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: clamp(0.5em, 1.2vw, 20px);
-    line-height: 30px;
-    text-align: center;
 
-    color: #FFFFFF;
-}
-
-#button2 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem; 
-    height: 35px;
-    background: #FFFFFF;
-    border-radius: 5px;
-    font-family: 'Poppins', sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    font-size: clamp(0.5em, 1.2vw, 20px);
-    ;
-    line-height: 30px;
-    text-align: center;
-
-    color: #590CE8;
-}
 
 
 .content {
@@ -105,7 +64,6 @@ nav {
     height: 5.3rem;
 }
 
-
 .content button p {
 
     font-family: 'Poppins', sans-serif;
@@ -124,20 +82,17 @@ nav {
 }
 
 #nave {
-    margin-left: max(33rem, 33rem);
 
+    margin-left: max(33rem, 40rem);
+   
 }
 
 #nave img {
-
     
-    width: 100%;
-  height: 500px;
-
- 
-  background-size: 150px;
+    margin-left: -8rem;
+    width: max(90%, 80%);
+    padding: 5rem;
 }
-
 
 .titulo-subtitulo-2 {
     text-align: center;
@@ -156,7 +111,6 @@ nav {
 }
 
 .titulo-subtitulo-2 >h2{
-    text-align: justify-all;
   padding: 1rem 1rem 2rem 1rem;
   font-weight: 400;
   font-size: clamp(0.5em, 1.2vw, 24px);
