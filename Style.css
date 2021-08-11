@@ -153,7 +153,7 @@ body {
 
 
 .titulo-subtitulo-3 {
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: beige;
@@ -224,6 +224,7 @@ body {
 }
 #ball p{
     padding: 8px;
+    padding-top:1.5rem;
 }
 
 
