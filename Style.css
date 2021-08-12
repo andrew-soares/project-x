@@ -79,8 +79,7 @@ body {
     font-size: 30px;
     line-height: 54px;
     margin-top: 1rem;
-    /* display: flex; */
-
+    
     text-align: center;
 
     color: #590CE8;
@@ -182,30 +181,7 @@ body {
     padding: 5rem 1rem 2rem 1rem;
 } */
 
-#arrow1{
 
-  margin-left: 1rem;
-      padding: 5rem 1rem 2rem 1rem;
-
-  
-}
-
-
-#arrow2{
-
-    margin-left: 1rem;
-        padding: 5rem 1rem 2rem 1rem;
-  
-    
-  }
-
-  #arrow3{
-
-    margin-left: 1rem;
-        padding: 5rem 1rem 2rem 1rem;
-  
-    
-  }
 
   #circle{
     
