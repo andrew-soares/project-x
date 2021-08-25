@@ -1,6 +1,6 @@
 body {
 
-    background-image: linear-gradient(to right, rgb(9, 5, 83), rgb(43, 4, 165));
+    /* background-image: linear-gradient(to right, rgb(9, 5, 83), rgb(43, 4, 165)); */
 
     padding: 0;
 
@@ -226,4 +226,25 @@ body {
   font-size: clamp(0.5em, 1.2vw, 24px);
   line-height: 30px;
 }
+
+#footer{
+  
+  background-color: white;
+}
+@media (max-width:1024px) {
+  body{
+      width: 100%;
+  }
+}
+
+@media (max-width: 650px){
+
+
+  footer{
+    
+    align-items: center;
+  }
+
+}
+
 
