@@ -148,9 +148,6 @@ body {
 
 
 
-
-
-
 .titulo-subtitulo-3 {
     /* margin-top: 5rem; */
     text-align: center;
@@ -227,24 +224,48 @@ body {
   line-height: 30px;
 }
 
-#footer{
-  
-  background-color: white;
-}
-@media (max-width:1024px) {
-  body{
-      width: 100%;
-  }
-}
 
-@media (max-width: 650px){
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 
-  footer{
-    
-    align-items: center;
-  }
 
+.container-fluid {
+    margin-top: 50px
 }
 
+.footer-copyright {
+    margin-top: 13px
+}
 
+a {
+    text-decoration: none !important;
+    color: #777a7c
+}
+
+.description {
+    font-size: 12px
+}
+
+.fa-facebook-f {
+    color: #3b5999
+}
+
+.fa-instagram {
+    color: #e4405f
+}
+
+.fa-youtube {
+    color: #cd201f
+}
+
+.fa-twitter {
+    color: #55acee
+}
+
+.logo-footer {
+    height: 30px
+}
+
+.footer-copyright p {
+    margin-top: 10px
+}
