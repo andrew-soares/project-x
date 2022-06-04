@@ -1,6 +1,6 @@
 # 
 <h1 align="center">
-  Strangers
+ Projeto Centurion
 </h1>
 
 <p align="center">
